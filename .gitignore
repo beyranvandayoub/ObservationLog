@@ -1,0 +1,25 @@
+# Python byte code & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Database files (optional: keep or ignore observations.db)
+*.db-journal
+
+# Output test images
+*.png
+!assets/*.png
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+*.log
